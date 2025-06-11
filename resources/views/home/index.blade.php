@@ -1008,4 +1008,8 @@
         <!--/ New Cars -->
     </main>
 </div>
+    @section('footerLinks')
+        @parent
+        <a href="#" class="href">Link u index</a>
+    @endsection
 @endsection
